@@ -1,0 +1,1042 @@
+{
+  "sourceUpdated": "2025-01-07T11:12:49Z",
+  "results": [
+    {
+      "location": {
+        "description": "Strada Memorandumului",
+        "length": 123,
+        "shape": {
+          "links": [
+            {
+              "points": [
+                {
+                  "lat": 46.77089,
+                  "lng": 23.58982
+                },
+                {
+                  "lat": 46.77083,
+                  "lng": 23.58969
+                },
+                {
+                  "lat": 46.77077,
+                  "lng": 23.58957
+                }
+              ],
+              "length": 23
+            },
+            {
+              "points": [
+                {
+                  "lat": 46.77077,
+                  "lng": 23.58957
+                },
+                {
+                  "lat": 46.77045,
+                  "lng": 23.5889
+                }
+              ],
+              "length": 62
+            },
+            {
+              "points": [
+                {
+                  "lat": 46.77045,
+                  "lng": 23.5889
+                },
+                {
+                  "lat": 46.77038,
+                  "lng": 23.58877
+                }
+              ],
+              "length": 13
+            },
+            {
+              "points": [
+                {
+                  "lat": 46.77038,
+                  "lng": 23.58877
+                },
+                {
+                  "lat": 46.77026,
+                  "lng": 23.58849
+                }
+              ],
+              "length": 25
+            }
+          ]
+        }
+      },
+      "currentFlow": {
+        "speed": 11.388889,
+        "speedUncapped": 11.388889,
+        "freeFlow": 12.777778,
+        "jamFactor": 0.9,
+        "confidence": 0.96,
+        "traversability": "open"
+      }
+    },
+    {
+      "location": {
+        "description": "Piaţa Unirii",
+        "length": 24,
+        "shape": {
+          "links": [
+            {
+              "points": [
+                {
+                  "lat": 46.77101,
+                  "lng": 23.59007
+                },
+                {
+                  "lat": 46.77099,
+                  "lng": 23.59003
+                }
+              ],
+              "length": 4
+            },
+            {
+              "points": [
+                {
+                  "lat": 46.77099,
+                  "lng": 23.59003
+                },
+                {
+                  "lat": 46.77089,
+                  "lng": 23.58982
+                }
+              ],
+              "length": 20
+            }
+          ]
+        }
+      },
+      "currentFlow": {
+        "speed": 11.666667,
+        "speedUncapped": 11.666667,
+        "freeFlow": 12.222222,
+        "jamFactor": 0.5,
+        "confidence": 0.94,
+        "traversability": "open"
+      }
+    },
+    {
+      "location": {
+        "description": "Strada Memorandumului",
+        "length": 27,
+        "shape": {
+          "links": [
+            {
+              "points": [
+                {
+                  "lat": 46.77026,
+                  "lng": 23.58849
+                },
+                {
+                  "lat": 46.77005,
+                  "lng": 23.58867
+                }
+              ],
+              "length": 27
+            }
+          ]
+        }
+      },
+      "currentFlow": {
+        "speed": 3.6111112,
+        "speedUncapped": 3.6111112,
+        "freeFlow": 11.111112,
+        "jamFactor": 2.9,
+        "confidence": 0.7,
+        "traversability": "open"
+      }
+    },
+    {
+      "location": {
+        "description": "Strada Samuil Micu",
+        "length": 127,
+        "shape": {
+          "links": [
+            {
+              "points": [
+                {
+                  "lat": 46.76979,
+                  "lng": 23.58735
+                },
+                {
+                  "lat": 46.76919,
+                  "lng": 23.58594
+                }
+              ],
+              "length": 127
+            }
+          ]
+        }
+      },
+      "currentFlow": {
+        "speed": 4.7222223,
+        "speedUncapped": 4.7222223,
+        "freeFlow": 9.722222,
+        "jamFactor": 3.8,
+        "confidence": 0.96,
+        "traversability": "open"
+      }
+    },
+    {
+      "location": {
+        "description": "DN1C / Piaţa Unirii",
+        "length": 16,
+        "shape": {
+          "links": [
+            {
+              "points": [
+                {
+                  "lat": 46.77101,
+                  "lng": 23.59007
+                },
+                {
+                  "lat": 46.77114,
+                  "lng": 23.58999
+                }
+              ],
+              "length": 16
+            }
+          ]
+        }
+      },
+      "currentFlow": {
+        "speed": 5.277778,
+        "speedUncapped": 5.277778,
+        "freeFlow": 8.888889,
+        "jamFactor": 2.8,
+        "confidence": 0.93,
+        "traversability": "open"
+      }
+    },
+    {
+      "location": {
+        "description": "Piaţa Unirii",
+        "length": 15,
+        "shape": {
+          "links": [
+            {
+              "points": [
+                {
+                  "lat": 46.77026,
+                  "lng": 23.58849
+                },
+                {
+                  "lat": 46.77019,
+                  "lng": 23.58832
+                }
+              ],
+              "length": 15
+            }
+          ]
+        }
+      },
+      "currentFlow": {
+        "speed": 11.111112,
+        "speedUncapped": 11.111112,
+        "freeFlow": 13.055556,
+        "jamFactor": 1.2,
+        "confidence": 0.96,
+        "traversability": "open"
+      }
+    },
+    {
+      "location": {
+        "description": "Bulevardul Eroilor",
+        "length": 101,
+        "shape": {
+          "links": [
+            {
+              "points": [
+                {
+                  "lat": 46.76874,
+                  "lng": 23.58978
+                },
+                {
+                  "lat": 46.7688,
+                  "lng": 23.58994
+                },
+                {
+                  "lat": 46.76885,
+                  "lng": 23.59007
+                },
+                {
+                  "lat": 46.7689,
+                  "lng": 23.59022
+                },
+                {
+                  "lat": 46.76896,
+                  "lng": 23.59041
+                }
+              ],
+              "length": 54
+            },
+            {
+              "points": [
+                {
+                  "lat": 46.76896,
+                  "lng": 23.59041
+                },
+                {
+                  "lat": 46.76904,
+                  "lng": 23.59067
+                }
+              ],
+              "length": 22
+            },
+            {
+              "points": [
+                {
+                  "lat": 46.76904,
+                  "lng": 23.59067
+                },
+                {
+                  "lat": 46.76912,
+                  "lng": 23.59093
+                }
+              ],
+              "length": 22
+            },
+            {
+              "points": [
+                {
+                  "lat": 46.76912,
+                  "lng": 23.59093
+                },
+                {
+                  "lat": 46.76913,
+                  "lng": 23.59097
+                }
+              ],
+              "length": 3
+            }
+          ]
+        }
+      },
+      "currentFlow": {
+        "speed": 8.611112,
+        "speedUncapped": 8.611112,
+        "freeFlow": 10.555556,
+        "jamFactor": 0.7,
+        "confidence": 0.98,
+        "traversability": "open"
+      }
+    },
+    {
+      "location": {
+        "description": "Strada Napoca",
+        "length": 168,
+        "shape": {
+          "links": [
+            {
+              "points": [
+                {
+                  "lat": 46.77005,
+                  "lng": 23.58867
+                },
+                {
+                  "lat": 46.76987,
+                  "lng": 23.58882
+                }
+              ],
+              "length": 23
+            },
+            {
+              "points": [
+                {
+                  "lat": 46.76987,
+                  "lng": 23.58882
+                },
+                {
+                  "lat": 46.76934,
+                  "lng": 23.58928
+                }
+              ],
+              "length": 69
+            },
+            {
+              "points": [
+                {
+                  "lat": 46.76934,
+                  "lng": 23.58928
+                },
+                {
+                  "lat": 46.76907,
+                  "lng": 23.5895
+                }
+              ],
+              "length": 34
+            },
+            {
+              "points": [
+                {
+                  "lat": 46.76907,
+                  "lng": 23.5895
+                },
+                {
+                  "lat": 46.76874,
+                  "lng": 23.58978
+                }
+              ],
+              "length": 42
+            }
+          ]
+        }
+      },
+      "currentFlow": {
+        "speed": 5.8333335,
+        "speedUncapped": 5.8333335,
+        "freeFlow": 7.777778,
+        "jamFactor": 2.1,
+        "confidence": 0.7,
+        "traversability": "open"
+      }
+    },
+    {
+      "location": {
+        "description": "Strada Fortăreţei",
+        "length": 107,
+        "shape": {
+          "links": [
+            {
+              "points": [
+                {
+                  "lat": 46.76758,
+                  "lng": 23.58714
+                },
+                {
+                  "lat": 46.76766,
+                  "lng": 23.58735
+                }
+              ],
+              "length": 18
+            },
+            {
+              "points": [
+                {
+                  "lat": 46.76766,
+                  "lng": 23.58735
+                },
+                {
+                  "lat": 46.76799,
+                  "lng": 23.58817
+                },
+                {
+                  "lat": 46.76806,
+                  "lng": 23.58835
+                }
+              ],
+              "length": 89
+            }
+          ]
+        }
+      },
+      "currentFlow": {
+        "speed": 10,
+        "speedUncapped": 10,
+        "freeFlow": 11.944445,
+        "jamFactor": 1.4,
+        "confidence": 0.98,
+        "traversability": "open"
+      }
+    },
+    {
+      "location": {
+        "description": "Piaţa Unirii",
+        "length": 22,
+        "shape": {
+          "links": [
+            {
+              "points": [
+                {
+                  "lat": 46.76913,
+                  "lng": 23.59097
+                },
+                {
+                  "lat": 46.76921,
+                  "lng": 23.59124
+                }
+              ],
+              "length": 22
+            }
+          ]
+        }
+      },
+      "currentFlow": {
+        "speed": 10,
+        "speedUncapped": 10,
+        "freeFlow": 11.111112,
+        "jamFactor": 0.8,
+        "confidence": 0.97,
+        "traversability": "open"
+      }
+    },
+    {
+      "location": {
+        "description": "Strada Hermann Oberth",
+        "length": 118,
+        "shape": {
+          "links": [
+            {
+              "points": [
+                {
+                  "lat": 46.76921,
+                  "lng": 23.59124
+                },
+                {
+                  "lat": 46.76949,
+                  "lng": 23.59223
+                }
+              ],
+              "length": 82
+            },
+            {
+              "points": [
+                {
+                  "lat": 46.76949,
+                  "lng": 23.59223
+                },
+                {
+                  "lat": 46.76952,
+                  "lng": 23.59233
+                },
+                {
+                  "lat": 46.76955,
+                  "lng": 23.59243
+                }
+              ],
+              "length": 17
+            },
+            {
+              "points": [
+                {
+                  "lat": 46.76955,
+                  "lng": 23.59243
+                },
+                {
+                  "lat": 46.76962,
+                  "lng": 23.59266
+                }
+              ],
+              "length": 19
+            }
+          ]
+        }
+      },
+      "currentFlow": {
+        "speed": 7.777778,
+        "speedUncapped": 7.777778,
+        "freeFlow": 11.388889,
+        "jamFactor": 2,
+        "confidence": 0.97,
+        "traversability": "open"
+      }
+    },
+    {
+      "location": {
+        "description": "Strada Potaissa",
+        "length": 19,
+        "shape": {
+          "links": [
+            {
+              "points": [
+                {
+                  "lat": 46.7675,
+                  "lng": 23.58692
+                },
+                {
+                  "lat": 46.76758,
+                  "lng": 23.58714
+                }
+              ],
+              "length": 19
+            }
+          ]
+        }
+      },
+      "currentFlow": {
+        "speed": 10.833334,
+        "speedUncapped": 10.833334,
+        "freeFlow": 11.666667,
+        "jamFactor": 0.5,
+        "confidence": 0.97,
+        "traversability": "open"
+      }
+    },
+    {
+      "location": {
+        "description": "Strada Inocenţiu Micu Klein",
+        "length": 101,
+        "shape": {
+          "links": [
+            {
+              "points": [
+                {
+                  "lat": 46.76679,
+                  "lng": 23.59025
+                },
+                {
+                  "lat": 46.76702,
+                  "lng": 23.59023
+                }
+              ],
+              "length": 26
+            },
+            {
+              "points": [
+                {
+                  "lat": 46.76702,
+                  "lng": 23.59023
+                },
+                {
+                  "lat": 46.76732,
+                  "lng": 23.59021
+                }
+              ],
+              "length": 33
+            },
+            {
+              "points": [
+                {
+                  "lat": 46.76732,
+                  "lng": 23.59021
+                },
+                {
+                  "lat": 46.7677,
+                  "lng": 23.59018
+                }
+              ],
+              "length": 42
+            }
+          ]
+        }
+      },
+      "currentFlow": {
+        "speed": 5.277778,
+        "speedUncapped": 5.277778,
+        "freeFlow": 5.8333335,
+        "jamFactor": 0.6,
+        "confidence": 0.7,
+        "traversability": "open"
+      }
+    },
+    {
+      "location": {
+        "description": "Strada Iuliu Maniu",
+        "length": 115,
+        "shape": {
+          "links": [
+            {
+              "points": [
+                {
+                  "lat": 46.76913,
+                  "lng": 23.59097
+                },
+                {
+                  "lat": 46.7693,
+                  "lng": 23.59087
+                }
+              ],
+              "length": 20
+            },
+            {
+              "points": [
+                {
+                  "lat": 46.7693,
+                  "lng": 23.59087
+                },
+                {
+                  "lat": 46.77009,
+                  "lng": 23.59038
+                }
+              ],
+              "length": 95
+            }
+          ]
+        }
+      },
+      "currentFlow": {
+        "speed": 10,
+        "speedUncapped": 10,
+        "freeFlow": 9.444445,
+        "jamFactor": 0,
+        "confidence": 0.92,
+        "traversability": "open"
+      }
+    },
+    {
+      "location": {
+        "description": "Strada Regele Ferdinand",
+        "length": 24,
+        "shape": {
+          "links": [
+            {
+              "points": [
+                {
+                  "lat": 46.77089,
+                  "lng": 23.58982
+                },
+                {
+                  "lat": 46.77099,
+                  "lng": 23.59003
+                }
+              ],
+              "length": 20
+            },
+            {
+              "points": [
+                {
+                  "lat": 46.77099,
+                  "lng": 23.59003
+                },
+                {
+                  "lat": 46.77101,
+                  "lng": 23.59007
+                }
+              ],
+              "length": 4
+            }
+          ]
+        }
+      },
+      "currentFlow": {
+        "speed": 9.166667,
+        "speedUncapped": 9.166667,
+        "freeFlow": 10.833334,
+        "jamFactor": 1.3,
+        "confidence": 0.7,
+        "traversability": "open"
+      }
+    },
+    {
+      "location": {
+        "description": "Strada Regele Ferdinand",
+        "length": 151,
+        "shape": {
+          "links": [
+            {
+              "points": [
+                {
+                  "lat": 46.77158,
+                  "lng": 23.59187
+                },
+                {
+                  "lat": 46.7715,
+                  "lng": 23.59158
+                }
+              ],
+              "length": 24
+            },
+            {
+              "points": [
+                {
+                  "lat": 46.7715,
+                  "lng": 23.59158
+                },
+                {
+                  "lat": 46.77141,
+                  "lng": 23.59125
+                }
+              ],
+              "length": 27
+            },
+            {
+              "points": [
+                {
+                  "lat": 46.77141,
+                  "lng": 23.59125
+                },
+                {
+                  "lat": 46.7713,
+                  "lng": 23.59089
+                }
+              ],
+              "length": 30
+            },
+            {
+              "points": [
+                {
+                  "lat": 46.7713,
+                  "lng": 23.59089
+                },
+                {
+                  "lat": 46.77121,
+                  "lng": 23.5906
+                }
+              ],
+              "length": 24
+            },
+            {
+              "points": [
+                {
+                  "lat": 46.77121,
+                  "lng": 23.5906
+                },
+                {
+                  "lat": 46.77116,
+                  "lng": 23.59045
+                },
+                {
+                  "lat": 46.7711,
+                  "lng": 23.59028
+                },
+                {
+                  "lat": 46.77101,
+                  "lng": 23.59007
+                }
+              ],
+              "length": 46
+            }
+          ]
+        }
+      },
+      "currentFlow": {
+        "speed": 6.9444447,
+        "speedUncapped": 6.9444447,
+        "freeFlow": 10,
+        "jamFactor": 2,
+        "confidence": 0.94,
+        "traversability": "open"
+      }
+    },
+    {
+      "location": {
+        "description": "Bulevardul 21 Decembrie 1989",
+        "length": 98,
+        "shape": {
+          "links": [
+            {
+              "points": [
+                {
+                  "lat": 46.77009,
+                  "lng": 23.59038
+                },
+                {
+                  "lat": 46.77037,
+                  "lng": 23.5902
+                }
+              ],
+              "length": 34
+            },
+            {
+              "points": [
+                {
+                  "lat": 46.77037,
+                  "lng": 23.5902
+                },
+                {
+                  "lat": 46.77048,
+                  "lng": 23.59013
+                }
+              ],
+              "length": 13
+            },
+            {
+              "points": [
+                {
+                  "lat": 46.77048,
+                  "lng": 23.59013
+                },
+                {
+                  "lat": 46.77089,
+                  "lng": 23.58982
+                }
+              ],
+              "length": 51
+            }
+          ]
+        }
+      },
+      "currentFlow": {
+        "speed": 3.3333335,
+        "speedUncapped": 3.3333335,
+        "freeFlow": 4.166667,
+        "jamFactor": 0,
+        "confidence": 0.9,
+        "traversability": "open"
+      }
+    },
+    {
+      "location": {
+        "description": "Strada Universitatii",
+        "length": 133,
+        "shape": {
+          "links": [
+            {
+              "points": [
+                {
+                  "lat": 46.76806,
+                  "lng": 23.58835
+                },
+                {
+                  "lat": 46.7681,
+                  "lng": 23.58844
+                }
+              ],
+              "length": 8
+            },
+            {
+              "points": [
+                {
+                  "lat": 46.7681,
+                  "lng": 23.58844
+                },
+                {
+                  "lat": 46.76814,
+                  "lng": 23.58853
+                },
+                {
+                  "lat": 46.76849,
+                  "lng": 23.58928
+                }
+              ],
+              "length": 78
+            },
+            {
+              "points": [
+                {
+                  "lat": 46.76849,
+                  "lng": 23.58928
+                },
+                {
+                  "lat": 46.76874,
+                  "lng": 23.58978
+                }
+              ],
+              "length": 47
+            }
+          ]
+        }
+      },
+      "currentFlow": {
+        "speed": 6.9444447,
+        "speedUncapped": 6.9444447,
+        "freeFlow": 8.333334,
+        "jamFactor": 0.5,
+        "confidence": 0.98,
+        "traversability": "open"
+      }
+    },
+    {
+      "location": {
+        "description": "Strada Ion Raţiu",
+        "length": 86,
+        "shape": {
+          "links": [
+            {
+              "points": [
+                {
+                  "lat": 46.77019,
+                  "lng": 23.58832
+                },
+                {
+                  "lat": 46.77012,
+                  "lng": 23.58815
+                }
+              ],
+              "length": 15
+            },
+            {
+              "points": [
+                {
+                  "lat": 46.77012,
+                  "lng": 23.58815
+                },
+                {
+                  "lat": 46.76979,
+                  "lng": 23.58735
+                }
+              ],
+              "length": 71
+            }
+          ]
+        }
+      },
+      "currentFlow": {
+        "speed": 11.388889,
+        "speedUncapped": 11.388889,
+        "freeFlow": 12.777778,
+        "jamFactor": 0.9,
+        "confidence": 0.96,
+        "traversability": "open"
+      }
+    },
+    {
+      "location": {
+        "description": "Strada Napoca",
+        "length": 119,
+        "shape": {
+          "links": [
+            {
+              "points": [
+                {
+                  "lat": 46.7677,
+                  "lng": 23.59018
+                },
+                {
+                  "lat": 46.76782,
+                  "lng": 23.59016
+                }
+              ],
+              "length": 13
+            },
+            {
+              "points": [
+                {
+                  "lat": 46.76782,
+                  "lng": 23.59016
+                },
+                {
+                  "lat": 46.76794,
+                  "lng": 23.59014
+                }
+              ],
+              "length": 13
+            },
+            {
+              "points": [
+                {
+                  "lat": 46.76794,
+                  "lng": 23.59014
+                },
+                {
+                  "lat": 46.76809,
+                  "lng": 23.59009
+                },
+                {
+                  "lat": 46.7685,
+                  "lng": 23.58992
+                }
+              ],
+              "length": 64
+            },
+            {
+              "points": [
+                {
+                  "lat": 46.7685,
+                  "lng": 23.58992
+                },
+                {
+                  "lat": 46.76874,
+                  "lng": 23.58978
+                }
+              ],
+              "length": 29
+            }
+          ]
+        }
+      },
+      "currentFlow": {
+        "speed": 3.3333335,
+        "speedUncapped": 3.3333335,
+        "freeFlow": 4.166667,
+        "jamFactor": 0.1,
+        "confidence": 0.71,
+        "traversability": "open"
+      }
+    }
+  ]
+}
