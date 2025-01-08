@@ -7,8 +7,17 @@ const cors = require('cors');
 const axios = require('axios');
 const { DateTime } = require("luxon");
 const tzlookup = require("tz-lookup"); // Mapare coordonate -> timezone
+const socketIO = require('socket.io');
+const http = require('http');
+
+
 
 const app = express();
+const Server = socketIO.Server
+
+const server = http.createServer(app);
+const io = new Server(server, { cors: { origin: "*" } });
+
 app.use(cors());
 app.use(express.json());
 
@@ -64,6 +73,9 @@ async function logParkingEvent(spotId, latitude, longitude, status, timestamp) {
     try {
         await event.save();
         console.log(`Event logged for spot: ${spotId}`);
+
+        // Emită evenimentul de parcare către toți clienții conectați
+        io.emit('parkingEvent', { spotId, status });
 
         // Actualizează grupurile după adăugarea unui spot nou
         const allSpots = await ParkingEvent.aggregate([
@@ -180,7 +192,7 @@ function getLocalTime(lat, lon) {
 // Cache Jam Factor și Weather
 async function getCachedJamFactorAndWeather(groupId, latitude, longitude) {
     const currentTime = Date.now();
-    const cacheExpiry = 5 * 60 * 1000;
+    const cacheExpiry = 5000; // 5 minute
 
     if (groupCache[groupId] && currentTime - groupCache[groupId].timestamp < cacheExpiry) {
         return groupCache[groupId];
@@ -233,6 +245,21 @@ function calculateDynamicPrice(basePrice, occupancyRate, timeOfDay, weatherCondi
     return price.toFixed(2);
 }
 
+// === Server web socket pe baza express ===
+  
+  io.on("connection", (socket) => {
+    console.log("New client connected:", socket.id);
+  
+    // Poți emite un mesaj "de salut"
+    socket.emit("welcome", "Bine ai venit!");
+  
+    // Ascultă deconectarea
+    socket.on("disconnect", () => {
+      console.log("Client disconnected:", socket.id);
+    });
+  });
+  
+  
 
 // === 5. Endpoint-uri Express ===
 app.get('/api/parking-prices', async (req, res) => {
@@ -250,24 +277,26 @@ app.get('/api/parking-prices', async (req, res) => {
 
             const localTime = getLocalTime(group.center.latitude, group.center.longitude);
             const localHour = localTime.hour; // Ora locală
-        
 
             for (const spot of group.spots) {
                 const occupancyRate = await calculateOccupancyRate(spot.spot_id);
                 const price = calculateDynamicPrice(basePrice, occupancyRate, localHour, weather.condition, jamFactor);
-                
-                const spotData = await ParkingEvent.findOne({ spot_id: spot.spot_id }).select("latitude longitude status").lean();
+
+                const spotData = await ParkingEvent.findOne({ spot_id: spot.spot_id })
+                    .sort({ timestamp: -1 })
+                    .select('spot_id latitude longitude status')
+                    .lean();
 
                 spotsWithPrices.push({
                     spot_id: spot.spot_id,
-                    latitude: spotData.latitude, // Coordonatele spotului
-                    longitude: spotData.longitude, // Coordonatele spotului
+                    latitude: spotData.latitude,
+                    longitude: spotData.longitude,
                     status: spotData.status,
                     price,
                     weather,
                     jam_factor: jamFactor.toFixed(2),
                     occupancy_rate: (occupancyRate * 100).toFixed(2),
-                    local_time: localTime.toISO(), // Adaugă timpul local în răspuns
+                    local_time: localTime.toISO(),
                 });
             }
         }
@@ -278,6 +307,7 @@ app.get('/api/parking-prices', async (req, res) => {
         res.status(500).send('Error calculating prices.');
     }
 });
+
 
 // === 6. Server CoAP ===
 const coapServer = coap.createServer(async (req, res) => {
@@ -310,4 +340,7 @@ const coapServer = coap.createServer(async (req, res) => {
 
 // === 7. Serverele Express și CoAP ===
 coapServer.listen(3002, () => console.log('CoAP server running on port 3002'));
-app.listen(3001, () => console.log('HTTP server running on port 3001'));
+const PORT = 3001;
+server.listen(PORT, () => {
+    console.log(`Server (HTTP + Socket.IO) listening on port ${PORT}`);
+  });
